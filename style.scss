@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+
+.container{
+  width: 1140px;
+  margin: 0 auto;
+}
+
+a{
+
+  text-decoration: none;
+}
+
+button{
+  cursor: pointer;
+  border: none;
+}
+body{
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+#header{
+  padding: 20px 0;
+  .header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &--nav{
+      h1{
+        font-size: 30px;
+        font-weight: 900;
+        color:#0B4141;
+      }
+    }
+
+    &--text{
+      a{
+        margin: 0 20px;
+        font-size: 18px;
+        font-weight: 400;
+        color:#0B4141;
+        transition: .3s;
+        &:hover{
+          border-bottom: 2px solid black;
+        }
+      }
+
+      button{
+        font-size: 20px;
+        font-weight: 500;
+        color: floralwhite;
+        padding: 10px 20px;
+        background: #0B4141;
+        border-radius: 15px;
+        transition: .3s;
+        &:hover{
+          transform: scale(1.1);
+        }
+      }
+    }
+  }
+}
+
+///2section/////
+
+#hero{
+  padding: 20px 0;
+  .hero{
+    display: flex;
+    justify-content: center;
+
+    &--text{
+      position: absolute;
+      h1{
+        font-weight: 400;
+        font-size: 120px;
+        line-height: 128px;
+        text-align: center;
+        color: #FFCCBC;
+
+      }
+      span{
+        font-weight: 400;
+        font-size: 120px;
+        line-height: 128px;
+        color: black;
+      }
+    }
+    &--ig{
+      display: flex;
+      justify-content: center;
+    }
+  }
+}
+
+//3section////
+
+#and{
+  padding: 50px 0;
+  background: pink;
+  .and{
+    img{
+      position: absolute;
+      max-width: 100vh;
+    }
+    &--text{
+      display: flex;
+      flex-flow: column;
+      justify-content: center;
+      h1{
+        font-weight: 400;
+        font-size: 80px;
+        line-height: 96px;
+        color: #FFFFFF;
+        text-align: center;
+      }
+      p{
+        font-size: 18px;
+        font-weight: 400;
+        color: #FFFFFF;
+        width: 800px;
+        text-align: center;
+      }
+    }
+  }
+}
+
+//4section//
+
+#choose{
+  background:#0B2E27;
+  height: 800px;
+  .choose{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &--text{
+      h1{
+        font-weight: 900;
+        font-size: 68px;
+        line-height: 72px;
+        color: #FFCCBC ;
+      }
+      p{
+        padding: 30px 0;
+        font-weight: 400;
+        font-size: 24px;
+        color: floralwhite;
+        line-height: 32px;
+        width: 475px;
+      }
+      button{
+        font-weight: 700;
+        font-size: 18px;
+        color: #FFCCBC;
+        padding: 10px 20px;
+        background: none;
+        border-bottom: 2px solid #FFCCBC;
+        border-radius: 15px;
+        transition: .3s;
+        &:hover{
+          transform: scale(1.1);
+        }
+      }
+    }
+  }
+}
+
+//5section//
+
+#always {
+  padding: 20px 0;
+  .always{
+    display: flex;
+    justify-content: space-between;
+    &--text{
+      h1{
+        font-weight: 900;
+        font-size: 68px;
+        line-height: 72px;
+        width: 464px;
+        color: #FFCCBC;
+      }
+      p{
+        padding: 20px 0;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 32px;
+        color: #0B4141;
+      }
+      span{
+        font-weight: 600;
+        font-size: 16px;
+        color: #0B4141;
+      }
+    }
+  }
+}
+
+
+//6section//
+
+#quality{
+  padding: 20px 0;
+  .qauality{
+    display: flex;
+    justify-content: space-between;
+    &--text{
+      h1{
+        font-weight: 900;
+        font-size: 68px;
+        color: #0B4141;
+      }
+      p{
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 32px;
+        color: #0B4141;
+        width: 464px;
+      }
+    }
+  }
+}
+
+
+//7section///
+
+#let{
+  .let{
+    &--textt{
+      display: flex;
+      justify-content: center;
+      flex-flow: column;
+      h1{
+        font-weight: 400;
+        font-size: 80px;
+        color: #FFCCBC;
+      }
+      p{
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 32px;
+        text-align: center;
+        color: #0B4141;
+        width: 700px;
+
+      }
+    }
+  }
+}
+
+//8section//
+
+#talk{
+  .talk{
+    &--img{
+
+    }
+  }
+}
